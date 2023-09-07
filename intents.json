@@ -1,0 +1,111 @@
+{
+    "intents": [
+      
+  {
+  "tag": "interviews",
+  "patterns": [
+    "Types of interview?",
+    "interview types "
+    
+  ],
+  "responses": [
+    "person to person interview panel interview phone call interview"
+  ]
+  },
+  {
+    "tag": "test",
+    "patterns": [
+     "1"
+      
+    ],
+    "responses": [
+      "test"
+    ]
+    },
+    {
+      "tag": "test2",
+      "patterns": [
+       "2"
+        
+      ],
+      "responses": [
+        "vtest"
+      ]
+      },
+    {
+      "tag": "interview",
+      "patterns": [
+       "Explain Fcfs"
+        
+      ],
+      "responses": [
+"FCFS is short for First-come, first-served, and is one type of scheduling algorithm. In this scheme, the process that requests the CPU first is allocated the CPU first. Implementation is managed by a FIFO queue."
+
+      ]
+      },
+  {
+    "tag": "interview",
+    "patterns": [
+     "how to face an interview"
+      
+    ],
+    "responses": [
+      "Tell the truth. ...Listen carefully to the interviewer. ... Never slight a teacher, friend, employer, or your university. ...  Watch your grammar. ... Be prepared for personal questions. ... Wait for the interviewer to mention salary and benefits. ...  Don't expect a job offer at the first interview. ...  Close on a positive, enthusiastic note."
+    ]
+    }
+  ,
+  {
+    "tag": "level",
+    "patterns": [
+     "Easy",
+     "Medium",
+     "Hard"
+      
+    ],
+    "responses": [
+     "Yeah your questions are on the way"
+    ]
+    },
+    {
+      "tag": "level",
+      "patterns": [
+       "How to take test ",
+       "how to attend test",
+       "take test"
+        
+      ],
+      "responses": [
+       "Enter 1 for technical exam \n Enter 2 for Vocabulary exam"
+      ]
+      }
+    ,
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hi",
+        "hello",
+        "Hey"
+        
+      ],
+      "responses": [
+        "hi.. iam your interview bot how can i help you?  Please free anything about interview and you can take exams to evaluate and we will suggest where you are lagging."
+        
+      ]
+      }
+      ,
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "bye",
+          "goodbye"
+          
+        ],
+        "responses": [
+          "See you later, thanks for visiting",
+          "have a nice day",
+          "Bye! Come back again soon."
+        ]
+        }
+  ]
+  }
+  
